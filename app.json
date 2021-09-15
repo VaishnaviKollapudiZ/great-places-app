@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Great-Places",
+    "description":"App about places",
+    "slug": "great-places",
+    "version": "1.0.0",
+    "privacy":"public",
+    "orientation": "portrait",
+    "platforms":[
+      "android",
+      "ios"
+    ],
+    "icon": "./assets/places.png",
+    "splash": {
+      "image": "./assets/splash_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171717"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier":"com.exp.great-places",
+      "buildNumber":"1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"com.exp.great_places",
+      "versionCode":1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/places-adaptive.png",
+        "backgroundColor": "#171717"
+      },
+      "permissions":["CAMERA", "ACCESS_FINE_LOCATION" ,"WRITE_EXTERNAL_STORAGE"],
+      "config":{
+          "googleMaps":{
+        "apiKey":"AIzaSyAluDVmtEY90prLNKHNf-pCYsc86BV2qvM"
+      }
+      }
+    
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
